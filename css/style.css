@@ -1,0 +1,412 @@
+*{  
+padding: 0;
+margin: 0;
+font-size: 14px;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+
+a{
+text-decoration: none;
+color: white;
+}
+li{
+list-style-type: none;
+}
+.container{
+max-width: 1140px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+
+.center{text-align: center;}
+.c-white{color:white;}
+.flex{display: flex;}
+.space-between{justify-content: space-between;}
+.space-evenly{justify-content: space-evenly;}
+.space-around{justify-content: space-around;}
+.bold{font-weight: bold;}
+.d-inline-block{display: inline-block;}
+
+
+
+
+/* ==========================================================================
+Header section css start
+========================================================================== */
+
+.header {
+background-color: #00283a;
+border-bottom: 4px solid #92c500;
+position: fixed;
+z-index: 999;
+width: 100%;
+}
+
+.nav p , ul a  {
+text-transform: uppercase;
+color: white;
+}
+
+.nav a {align-self: center;}
+
+.nav ul {
+align-items: center;
+}
+
+.logo , .logo strong {
+font-size: 32px;
+}
+
+.nav ul li:hover {
+border-top: 4px solid #92c500;
+}
+
+.nav ul li{
+border-top: 4px solid #00283a;
+}
+
+.nav ul a {
+font-weight: 600;
+font-size: 14px;
+padding: 25px 15px;
+display: inline-block;  
+}
+
+
+
+/* top-line css start
+========================================================================== */
+.top-bar{
+  background-color: #012232;
+  border-bottom: 1px solid #001925;
+  padding: 10px 0px;
+}
+
+.top-line{
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.7;
+}
+
+
+.top-line a{
+  font-size: 12px;
+}
+
+/* navbar Responsive
+========================================================================== */
+nav{
+clear: both;
+}
+
+.navtab i{
+color: white;
+font-size: 25px;
+}
+
+.nav ul a:hover{
+color: #92c500;
+}
+
+
+
+
+
+
+/* ==========================================================================
+Slider section css start
+========================================================================== */
+/* .banner1{
+display: flex;
+align-items: center;
+}   */
+
+
+.banner1{
+background-image: url("../images/slider.jpg");
+height: 100vh;
+background-size: cover; 
+background-repeat: no-repeat;
+}
+
+
+.banner2{
+background-image: url("../images/slider4.jpg");
+height: 100vh;
+background-size: cover; 
+background-repeat: no-repeat;
+}
+
+.banner3{
+background-image: url("../images/slider3.jpg");
+height: 100vh;
+background-size: cover; 
+background-repeat: no-repeat;
+}
+
+.slider-text h2{
+background-color: rgba(146, 197, 0, 0.68);
+color: white;
+font-size: 30px;
+padding: 16px 0 16px 20px;
+margin-bottom: 2px;
+}
+
+.slider-text{
+margin-left: 80px;
+margin-top: 300px;
+}
+
+.slider-text p{
+background-color: #00283a;
+color:white;
+font-size: 14px;
+padding: 10px 80px 10px 20px;
+line-height: 22px; 
+}
+
+
+
+
+/* ==========================================================================
+amazing template section css start
+========================================================================== */
+
+.amazing-template-section{
+background-color: #00283a;
+line-height: 50px;
+padding: 80px 15px;
+}
+
+.amazing-template-section button{
+  letter-spacing: 1px;
+  border: 2px solid #92c500;
+  background-color: #ffffff00;
+  padding: 10px 100px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.amazing-template-section button:hover {
+  background-color: #92c500;
+  color: white;
+  transition: all 1s;
+
+}
+
+
+.amazing-template-section h2{
+font-size:32px;
+}
+
+.amazing-template-section p{
+opacity:0.7 ;
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+four section css start
+========================================================================== */
+.four-section div{
+padding: 40px 10px;
+cursor: pointer;
+}
+
+.four-section div:hover{
+background-color: #00283a;
+transition: all 1s;
+color: white;
+transform: scale(1.05) translateY(-4px);
+    box-shadow: 0 0 1px rgba(0,0,0,.03), 0 8px 26px -4px rgba(0,0,0,.1), 0 -18px 35px -19px rgba(0,0,0,.2);
+    transition: all 1s ease;
+}
+
+.four-section{
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.four-section p{
+line-height: 30px;
+}
+
+.four-section h2{
+text-transform: uppercase;
+font-size: 20px;
+line-height: 40px;
+}
+
+.four-section i{
+background-color: #92c500;
+margin-bottom: 30px;
+font-size: 30px;
+color: white;
+padding: 20px;
+border-radius: 50px;
+}
+
+
+
+
+/* ==========================================================================
+about section css start
+========================================================================== */
+.about-section div{
+width:50%;
+}
+
+.about-section div img:hover{
+  opacity:0.5;
+  transition: 1s all;
+}
+
+.about-section div:nth-of-type(2){
+background-color: #00283a;
+padding: 35px 35px;
+}
+
+.about-section div:nth-of-type(2) h2{
+font-size: 70px;
+color: white;
+line-height: 70px;
+margin-bottom: 40px;
+}
+
+.about-section div:nth-of-type(2) p{
+color: white;
+opacity: 0.7;
+font-size: 16px;
+line-height: 25px;
+}
+
+
+.about-section div:nth-of-type(2) button{
+text-transform: uppercase;
+font-weight: bold;
+border: 2px solid #92c500;
+background-color: transparent;
+color: white;
+padding: 10px 30px;
+border-radius: 50px;
+margin-top: 40px;
+cursor: pointer;
+}
+
+
+.about-section div:nth-of-type(2) button:hover{
+background-color: #92c500;
+color: white;
+transition: all 1s;
+
+}
+
+
+
+/* ==========================================================================
+gallery section css start
+========================================================================== */
+.gallery-images{
+  flex-wrap:wrap;
+}
+
+.gallery-images div{
+  flex:20%;
+}
+.gallery-secton {
+  padding: 80px 15px;
+}
+
+.gallery-secton h2{
+font-size: 32px;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-bottom: 40px;
+}
+
+.gallery-secton .gallery-img{
+position: relative;
+cursor: pointer;
+margin: 10px;
+}
+
+.images-hovers{
+  background-color: #0000007d;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.gallery-secton .gallery-img:hover .images-hovers{
+  display: block;
+}
+
+.gallery-secton .flex div:hover{
+  transform: scale(1.05) translateY(-4px);
+    box-shadow: 0 0 1px rgba(0,0,0,.03), 0 8px 26px -4px rgba(0,0,0,.1), 0 -18px 35px -19px rgba(0,0,0,.2);
+    transition: all 1s ease;
+}
+
+/* ==========================================================================
+map section css start
+========================================================================== */
+.map{
+  margin-bottom: 80px;
+}
+
+/* ==========================================================================
+footer section css start
+========================================================================== */
+.footer{
+  background-color: #00283a;
+  padding: 80px 0;
+}
+
+.footer-menu ul li{
+  text-transform: uppercase;
+  line-height: 30px;
+}
+
+.footer section{
+  width:25%;
+  margin: 0 20px;
+}
+
+.footer section h2{
+  font-size:23px;
+  margin-bottom: 25px;
+}
+
+.footer-about p{
+  line-height: 30px;
+}
+
+.social-icons i{
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+.footer .logo p{
+  text-transform: uppercase;
+}
+
+.footer-menu ul li a:hover,
+.social-icons i:hover
+{
+  color: #92c500;
+}
+
+

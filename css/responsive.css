@@ -1,0 +1,236 @@
+@media (max-width:1200px){
+    .gallery-secton .flex div p{
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .gallery-section-hover {
+        font-size: 19px;
+        line-height: 62px;
+    }
+
+    .four-section div {
+        padding: 40px 30px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:1024px){
+   
+    .nav ul a {
+        font-size: 14px;
+        padding: 20px 12px;
+    }
+
+    .slider-text{
+        margin-top: 250px;
+        margin-left: 50px;
+    }
+
+    .slider-text h2{
+        font-size: 25px;
+    }
+
+    .slider-text p{
+        font-size: 13px;
+    }
+
+    .amazing-template-section p {
+        font-size: 15px;
+    }
+
+    .four-section {
+        flex-wrap: wrap;
+    }
+
+    .four-section .center{
+        flex: 50%;
+    }
+
+    .about-section div:nth-of-type(2) button{
+        margin-bottom: 25px;
+    }
+
+    .about-section div:nth-of-type(2) {
+        font-size: 14px;
+    }
+    .gallery-images div {
+        flex: 23%;
+    }
+
+    .footer section:nth-of-type(1){
+        display: none;
+    }
+
+    .footer .container {
+        flex-wrap: wrap;
+    }
+
+    .footer section:nth-of-type(2){
+        flex: 36%;
+    }
+
+    .footer section:nth-of-type(3){
+        flex: 16%;
+    }
+
+    .footer section:nth-of-type(4){
+        flex: 13%;
+    }
+} 
+
+
+@media (max-width:768px){
+    .about-section div:nth-of-type(2) h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .gallery-images div {
+        flex: 30%;
+    }
+    .four-section h2{
+        font-size: 19px;
+    }
+
+    .nav a{
+        align-self: flex-start;
+    }
+
+    .nav{
+        padding: 15px;
+    }
+    .navtab {
+        margin-top: 6px;
+    }
+
+    .nav ul{
+        display:none;
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav p {
+        align-self: flex-start;
+    }
+
+    .banner1 , .banner2 , .banner3{
+        position: relative;
+    }
+
+    .slider-text{
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+
+    .top-bar{
+        display: none;
+    }
+
+    .amazing-template-section h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .amazing-template-section {
+        line-height: 30px;
+        padding: 40px 15px;
+    }
+
+    .about-section div {
+        width: 100%;
+    }
+    
+    .about-section {
+        display: block;
+    }    
+
+    .slider-text h2{
+        padding: 16px;
+    }
+    
+    .slider-text h2 {
+        font-size: 22px;
+    }
+
+    .slider-text p{
+        padding: 9px;
+    }
+
+    .banner1 , .banner2 , .banner3{
+        height: 70vh;
+    }
+    .social-icons i {
+        font-size: 19px;
+        margin-right: 5px;
+    }
+
+    .four-section {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .gallery-secton {
+        padding: 15px 15px;
+    }
+
+    .gallery-secton h2{
+        margin-bottom: 8px;
+    }
+
+    .map {
+        margin-bottom: 15px;
+    }
+} 
+
+
+
+@media (max-width:520px){
+    .four-section .center {
+        flex: 100%;
+    }
+    
+    .four-section div {
+        padding: 20px 33px;
+    }
+
+    .four-section i{
+        margin-bottom: 10px;
+    }
+
+    .about-section div:nth-of-type(2) h2{
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .about-section div:nth-of-type(2) p{
+        font-size: 14px;
+    }
+
+    .about-section div:nth-of-type(2) button{
+        margin-bottom: 0;
+        margin-top:30px;
+    }
+
+    .amazing-template-section button{
+        font-size: 14px;
+    }
+
+    .gallery-images div {
+        flex: 50%;
+    }
+
+    .footer section:nth-of-type(3) , .footer section:nth-of-type(2) , .footer section:nth-of-type(1){
+        flex:100%;
+        margin-bottom: 20px;
+    }
+    
+    .footer section h2{
+        margin-bottom: 10px;
+    }
+} 
