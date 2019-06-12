@@ -7,14 +7,15 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-a{
+a {
 text-decoration: none;
 color: white;
 }
 li{
 list-style-type: none;
 }
-.container{
+
+.container {
 max-width: 1140px;
 margin: 0 auto;
 padding: 0 15px;
@@ -45,7 +46,8 @@ z-index: 999;
 width: 100%;
 }
 
-.nav p , ul a  {
+.nav p , 
+ul a  {
 text-transform: uppercase;
 color: white;
 }
@@ -80,26 +82,31 @@ display: inline-block;
 /* top-line css start
 ========================================================================== */
 .top-bar{
-  background-color: #012232;
-  border-bottom: 1px solid #001925;
-  padding: 10px 0px;
+background-color: #012232;
+border-bottom: 1px solid #001925;
+padding: 10px 0px;
+letter-spacing: 1px;
 }
 
 .top-line{
-  display: flex;
-  justify-content: space-between;
-  opacity: 0.7;
+display: flex;
+justify-content: space-between;
+opacity: 0.7;
 }
 
 
 .top-line a{
-  font-size: 12px;
+font-size: 14px;
 }
 
 /* navbar Responsive
 ========================================================================== */
 nav{
 clear: both;
+}
+
+.navtab {
+display: none;
 }
 
 .navtab i{
@@ -112,8 +119,9 @@ color: #92c500;
 }
 
 
-
-
+.active{
+  color: #92c500;
+}
 
 
 /* ==========================================================================
@@ -131,7 +139,6 @@ height: 100vh;
 background-size: cover; 
 background-repeat: no-repeat;
 }
-
 
 .banner2{
 background-image: url("../images/slider4.jpg");
@@ -182,22 +189,22 @@ padding: 80px 15px;
 }
 
 .amazing-template-section button{
-  letter-spacing: 1px;
-  border: 2px solid #92c500;
-  background-color: #ffffff00;
-  padding: 10px 100px;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 50px;
-  font-weight: bold;
-  margin-top: 20px;
+letter-spacing: 1px;
+border: 2px solid #92c500;
+background-color: #ffffff00;
+padding: 10px 100px;
+color: white;
+cursor: pointer;
+font-size: 16px;
+border-radius: 50px;
+font-weight: bold;
+margin-top: 20px;
 }
 
 .amazing-template-section button:hover {
-  background-color: #92c500;
-  color: white;
-  transition: all 1s;
+background-color: #92c500;
+color: white;
+transition: all 1s;
 
 }
 
@@ -214,41 +221,39 @@ opacity:0.7 ;
 
 
 
-
-
 /* ==========================================================================
 four section css start
 ========================================================================== */
-.four-section div{
+.four-service-section div{
 padding: 40px 10px;
 cursor: pointer;
 }
 
-.four-section div:hover{
+.four-service-section div:hover{
 background-color: #00283a;
 transition: all 1s;
 color: white;
 transform: scale(1.05) translateY(-4px);
-    box-shadow: 0 0 1px rgba(0,0,0,.03), 0 8px 26px -4px rgba(0,0,0,.1), 0 -18px 35px -19px rgba(0,0,0,.2);
-    transition: all 1s ease;
+  box-shadow: 0 0 1px rgba(0,0,0,.03), 0 8px 26px -4px rgba(0,0,0,.1), 0 -18px 35px -19px rgba(0,0,0,.2);
+  transition: all 1s ease;
 }
 
-.four-section{
-  padding-bottom: 40px;
-  padding-top: 40px;
+.four-service-section{
+padding-bottom: 40px;
+padding-top: 40px;
 }
 
-.four-section p{
+.four-service-section p{
 line-height: 30px;
 }
 
-.four-section h2{
+.four-service-section h2{
 text-transform: uppercase;
 font-size: 20px;
 line-height: 40px;
 }
 
-.four-section i{
+.four-service-section i{
 background-color: #92c500;
 margin-bottom: 30px;
 font-size: 30px;
@@ -263,13 +268,18 @@ border-radius: 50px;
 /* ==========================================================================
 about section css start
 ========================================================================== */
+.about-section img{
+width: 100%;
+height: 100%;
+}
+
 .about-section div{
 width:50%;
 }
 
 .about-section div img:hover{
-  opacity:0.5;
-  transition: 1s all;
+opacity:0.5;
+transition: 1s all;
 }
 
 .about-section div:nth-of-type(2){
@@ -278,7 +288,7 @@ padding: 35px 35px;
 }
 
 .about-section div:nth-of-type(2) h2{
-font-size: 70px;
+font-size: 60px;
 color: white;
 line-height: 70px;
 margin-bottom: 40px;
@@ -317,96 +327,146 @@ transition: all 1s;
 /* ==========================================================================
 gallery section css start
 ========================================================================== */
+.gallery-secton .gallery-img img{
+width: 100%;
+}
 .gallery-images{
-  flex-wrap:wrap;
+flex-wrap:wrap;
 }
 
 .gallery-images div{
-  flex:20%;
+flex:20%;
 }
 .gallery-secton {
-  padding: 80px 15px;
+  padding: 80px 15px 70px 15px;
 }
 
 .gallery-secton h2{
 font-size: 32px;
 text-transform: uppercase;
 letter-spacing: 2px;
-margin-bottom: 40px;
+margin-bottom: 25px;
 }
 
 .gallery-secton .gallery-img{
 position: relative;
 cursor: pointer;
 margin: 10px;
+overflow: hidden;
 }
 
 .images-hovers{
-  background-color: #0000007d;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: none;
+background-color: #0000007d;
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+display: none;
 }
 
 .gallery-secton .gallery-img:hover .images-hovers{
-  display: block;
+display: block;
 }
 
 .gallery-secton .flex div:hover{
-  transform: scale(1.05) translateY(-4px);
-    box-shadow: 0 0 1px rgba(0,0,0,.03), 0 8px 26px -4px rgba(0,0,0,.1), 0 -18px 35px -19px rgba(0,0,0,.2);
-    transition: all 1s ease;
+transform: scale(1.05) translateY(-4px);
+  box-shadow: 0 0 1px rgba(0,0,0,.03), 0 8px 26px -4px rgba(0,0,0,.1), 0 -18px 35px -19px rgba(0,0,0,.2);
+  transition: all 1s ease;
 }
 
 /* ==========================================================================
 map section css start
 ========================================================================== */
-.map{
-  margin-bottom: 80px;
+
+.map iframe{
+  width:100%;  
+  height:350px;  
+  border:0;
 }
 
 /* ==========================================================================
 footer section css start
 ========================================================================== */
 .footer{
-  background-color: #00283a;
-  padding: 80px 0;
-}
-
-.footer-menu ul li{
-  text-transform: uppercase;
-  line-height: 30px;
+background-color: #00283a;
+padding-top: 80px;
 }
 
 .footer section{
-  width:25%;
-  margin: 0 20px;
+width:25%;
+margin: 0 20px;
 }
 
 .footer section h2{
-  font-size:23px;
-  margin-bottom: 25px;
+font-size:20px;
+margin-bottom: 25px;
 }
 
 .footer-about p{
-  line-height: 30px;
+line-height: 30px;
 }
 
 .social-icons i{
-  font-size: 22px;
-  margin-right: 15px;
+font-size: 18px;
 }
 
-.footer .logo p{
+.new-footer{
+  background-color:#00283a ;
+  color: white;
+  padding: 40px 0;
+  line-height: 40px;
+}
+
+.new-footer ul{
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.new-footer ul li{
+  padding: 0 25px;
   text-transform: uppercase;
 }
 
-.footer-menu ul li a:hover,
-.social-icons i:hover
-{
+.footer-contact{
+padding: 0 20px;
+}
+
+.footer-contact .email {
+  margin: 0 15px;
+  display: flex;
+  justify-content: center;  
+}
+
+.footer-contact .email a{
+  margin: 0 5px;
+}
+
+.social-icons i:hover{
   color: #92c500;
 }
 
+.footer-menu ul li :hover , 
+.footer-contact .email a:hover {
+  color: #92c500;
+}
 
+.email div{
+  margin: 0 5px;
+}
+
+
+
+/* ==========================================================================
+copyright section css start
+========================================================================== */
+.copyright-section {
+  background-color: #00283a;
+  color: white;
+  padding:0 15px; 
+}
+
+
+.copyright-section a:hover{
+  color: #92c500;
+}

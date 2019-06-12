@@ -9,7 +9,7 @@
         line-height: 62px;
     }
 
-    .four-section div {
+    .four-service-section div {
         padding: 40px 30px;
         cursor: pointer;
     }
@@ -39,11 +39,11 @@
         font-size: 15px;
     }
 
-    .four-section {
+    .four-service-section {
         flex-wrap: wrap;
     }
 
-    .four-section .center{
+    .four-service-section .center{
         flex: 50%;
     }
 
@@ -79,8 +79,11 @@
     }
 } 
 
-
 @media (max-width:768px){
+    .navtab {
+        display: block;
+    }
+
     .about-section div:nth-of-type(2) h2 {
         font-size: 50px;
         line-height: 60px;
@@ -89,7 +92,7 @@
     .gallery-images div {
         flex: 30%;
     }
-    .four-section h2{
+    .four-service-section h2{
         font-size: 19px;
     }
 
@@ -169,7 +172,7 @@
         margin-right: 5px;
     }
 
-    .four-section {
+    .four-service-section {
         padding-bottom: 15px;
         padding-top: 15px;
     }
@@ -182,23 +185,36 @@
         margin-bottom: 8px;
     }
 
-    .map {
-        margin-bottom: 15px;
+    .new-footer ul{
+        display: block;
+    }
+
+    .footer-contact .email{
+        display: block;
+    }
+    .copyright-section{
+        text-align: left;
+    }
+
+    .copyright-section p{
+        margin-left: 25px;
+    }
+
+    .email div{
+        margin: 0;
     }
 } 
 
-
-
 @media (max-width:520px){
-    .four-section .center {
+    .four-service-section .center {
         flex: 100%;
     }
     
-    .four-section div {
+    .four-service-section div {
         padding: 20px 33px;
     }
 
-    .four-section i{
+    .four-service-section i{
         margin-bottom: 10px;
     }
 
